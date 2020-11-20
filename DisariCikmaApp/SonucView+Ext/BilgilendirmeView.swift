@@ -14,13 +14,19 @@ struct BilgilendirmeView: View {
                 .frame(maxWidth:.infinity)
                 .padding()
                 .background(Color.blue)
-                .font(.title3)
+                .font(.headline)
             Text("Bunların hepsi sizin iyiliğiniz için. Unutmayın sizi çok seviyoruz 💕")
                 .frame(maxWidth:.infinity)
                 .padding()
                 .background(Color.purple)
-                .font(.title3)
+                .font(.headline)
         }.foregroundColor(.white)
+    }
+}
+
+struct SonucVifew_Previews: PreviewProvider {
+    static var previews: some View {
+        SonucView(gelenBilgiler: (anaMetin: "String", bilgiMetin: "String"))
     }
 }
 

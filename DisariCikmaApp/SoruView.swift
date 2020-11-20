@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
 
 struct SoruView: View {
     @State var kullaniciYasi = 18
@@ -13,7 +14,8 @@ struct SoruView: View {
     @State var uyariGoster = false
     @State var sonucaGecis = false
     @State var gidecekBilgi = (anaMetin:"",bilgiMetni:"")
-    
+ 
+    var interstitialAd = InterstitialService()
     
     var body: some View {
         NavigationView{
@@ -41,6 +43,7 @@ struct SoruView: View {
                                 gidecekBilgi.anaMetin = mainText
                                 gidecekBilgi.bilgiMetni = infoText.rawValue
                                 sonucaGecis = true
+                                self.interstitialAd.showAd()
                             }
                         }
                     }

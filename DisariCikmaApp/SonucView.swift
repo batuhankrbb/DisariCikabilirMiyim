@@ -25,7 +25,7 @@ struct SonucView: View {
             Spacer()
             
             Text(gelenBilgiler.bilgiMetin)
-                .font(.title3)
+                .font(.title)
                 .padding()
                 .padding(.bottom,20)
                

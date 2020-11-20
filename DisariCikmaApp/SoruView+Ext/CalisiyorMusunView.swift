@@ -13,7 +13,7 @@ struct CalisiyorMusunView:View{
         HStack{
             VStack{
                 Text("Çalışıyor musun?")
-                    .font(.title2)
+                    .font(.title)
                     .bold()
                 Picker("", selection: $calisiyorMusun){
                     Text("Evet").tag(true)
