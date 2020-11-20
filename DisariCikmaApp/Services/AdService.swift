@@ -11,7 +11,7 @@ import GoogleMobileAds
 
 final class InterstitialService:NSObject, GADInterstitialDelegate{
     
-    var interstitial:GADInterstitial = GADInterstitial(adUnitID: "ca-app-pub-3108242646730560/1083159993")
+    var interstitial:GADInterstitial = GADInterstitial(adUnitID: "")
     
     override init() {
         super.init()
@@ -32,7 +32,7 @@ final class InterstitialService:NSObject, GADInterstitialDelegate{
     }
     
     func interstitialDidDismissScreen(_ ad: GADInterstitial) {
-        self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-3108242646730560/1083159993")
+        self.interstitial = GADInterstitial(adUnitID: "")
         LoadInterstitial()
     }
 }
