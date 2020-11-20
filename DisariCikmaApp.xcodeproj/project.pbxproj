@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A746650D55AC639E3DC490 /* Pods_DisariCikmaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8C97E3B3FEE6658E2A351F /* Pods_DisariCikmaApp.framework */; };
 		84F774792566D18D00382C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F774782566D18D00382C14 /* AppDelegate.swift */; };
 		84F7747B2566D18D00382C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7747A2566D18D00382C14 /* SceneDelegate.swift */; };
-		84F7747D2566D18D00382C14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7747C2566D18D00382C14 /* ContentView.swift */; };
+		84F7747D2566D18D00382C14 /* SoruView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7747C2566D18D00382C14 /* SoruView.swift */; };
 		84F7747F2566D18D00382C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F7747E2566D18D00382C14 /* Assets.xcassets */; };
 		84F774822566D18D00382C14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F774812566D18D00382C14 /* Preview Assets.xcassets */; };
 		84F774852566D18D00382C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F774832566D18D00382C14 /* LaunchScreen.storyboard */; };
+		84F7748E2566DE9300382C14 /* YasPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7748D2566DE9300382C14 /* YasPicker.swift */; };
+		84F774922566DECD00382C14 /* CalisiyorMusunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F774912566DECD00382C14 /* CalisiyorMusunView.swift */; };
+		84F774962566DEDE00382C14 /* KontrolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F774952566DEDE00382C14 /* KontrolButton.swift */; };
+		84F7749B2566E03200382C14 /* SonucView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7749A2566E03200382C14 /* SonucView.swift */; };
+		84F774A02566E41B00382C14 /* BilgilendirmeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7749F2566E41B00382C14 /* BilgilendirmeView.swift */; };
+		84F774A42566E64700382C14 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F774A32566E64700382C14 /* DateService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CE7860158C16255467DC128 /* Pods-DisariCikmaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisariCikmaApp.debug.xcconfig"; path = "Target Support Files/Pods-DisariCikmaApp/Pods-DisariCikmaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8C97E3B3FEE6658E2A351F /* Pods_DisariCikmaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisariCikmaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F774752566D18D00382C14 /* DisariCikmaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisariCikmaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F774782566D18D00382C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F7747A2566D18D00382C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84F7747C2566D18D00382C14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84F7747C2566D18D00382C14 /* SoruView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoruView.swift; sourceTree = "<group>"; };
 		84F7747E2566D18D00382C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F774812566D18D00382C14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84F774842566D18D00382C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F774862566D18D00382C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F7748D2566DE9300382C14 /* YasPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YasPicker.swift; sourceTree = "<group>"; };
+		84F774912566DECD00382C14 /* CalisiyorMusunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalisiyorMusunView.swift; sourceTree = "<group>"; };
+		84F774952566DEDE00382C14 /* KontrolButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontrolButton.swift; sourceTree = "<group>"; };
+		84F7749A2566E03200382C14 /* SonucView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucView.swift; sourceTree = "<group>"; };
+		84F7749F2566E41B00382C14 /* BilgilendirmeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilgilendirmeView.swift; sourceTree = "<group>"; };
+		84F774A32566E64700382C14 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		E1CD297BC99C23C924046BD0 /* Pods-DisariCikmaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisariCikmaApp.release.xcconfig"; path = "Target Support Files/Pods-DisariCikmaApp/Pods-DisariCikmaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A746650D55AC639E3DC490 /* Pods_DisariCikmaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371E2A60A5094D63543B2B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8C97E3B3FEE6658E2A351F /* Pods_DisariCikmaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77ECB6BB83E728EB310F4DDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7860158C16255467DC128 /* Pods-DisariCikmaApp.debug.xcconfig */,
+				E1CD297BC99C23C924046BD0 /* Pods-DisariCikmaApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84F7746C2566D18C00382C14 = {
 			isa = PBXGroup;
 			children = (
 				84F774772566D18D00382C14 /* DisariCikmaApp */,
 				84F774762566D18D00382C14 /* Products */,
+				77ECB6BB83E728EB310F4DDE /* Pods */,
+				371E2A60A5094D63543B2B7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +93,14 @@
 		84F774772566D18D00382C14 /* DisariCikmaApp */ = {
 			isa = PBXGroup;
 			children = (
+				84F774A32566E64700382C14 /* DateService.swift */,
+				84F7749E2566E3FC00382C14 /* SonucView+Ext */,
+				84F774902566DE9F00382C14 /* SoruView+Ext */,
+				84F7747C2566D18D00382C14 /* SoruView.swift */,
+				84F7749A2566E03200382C14 /* SonucView.swift */,
+				84F7747E2566D18D00382C14 /* Assets.xcassets */,
 				84F774782566D18D00382C14 /* AppDelegate.swift */,
 				84F7747A2566D18D00382C14 /* SceneDelegate.swift */,
-				84F7747C2566D18D00382C14 /* ContentView.swift */,
-				84F7747E2566D18D00382C14 /* Assets.xcassets */,
 				84F774832566D18D00382C14 /* LaunchScreen.storyboard */,
 				84F774862566D18D00382C14 /* Info.plist */,
 				84F774802566D18D00382C14 /* Preview Content */,
@@ -75,6 +116,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		84F774902566DE9F00382C14 /* SoruView+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				84F7748D2566DE9300382C14 /* YasPicker.swift */,
+				84F774912566DECD00382C14 /* CalisiyorMusunView.swift */,
+				84F774952566DEDE00382C14 /* KontrolButton.swift */,
+			);
+			path = "SoruView+Ext";
+			sourceTree = "<group>";
+		};
+		84F7749E2566E3FC00382C14 /* SonucView+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				84F7749F2566E41B00382C14 /* BilgilendirmeView.swift */,
+			);
+			path = "SonucView+Ext";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F774892566D18D00382C14 /* Build configuration list for PBXNativeTarget "DisariCikmaApp" */;
 			buildPhases = (
+				7708B4560744B0A13083975F /* [CP] Check Pods Manifest.lock */,
 				84F774712566D18C00382C14 /* Sources */,
 				84F774722566D18C00382C14 /* Frameworks */,
 				84F774732566D18C00382C14 /* Resources */,
+				3BC5C49B10A683F1A9C564B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,14 +201,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BC5C49B10A683F1A9C564B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisariCikmaApp/Pods-DisariCikmaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisariCikmaApp/Pods-DisariCikmaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisariCikmaApp/Pods-DisariCikmaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7708B4560744B0A13083975F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisariCikmaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84F774712566D18C00382C14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F774A42566E64700382C14 /* DateService.swift in Sources */,
+				84F7749B2566E03200382C14 /* SonucView.swift in Sources */,
 				84F774792566D18D00382C14 /* AppDelegate.swift in Sources */,
+				84F7748E2566DE9300382C14 /* YasPicker.swift in Sources */,
+				84F774922566DECD00382C14 /* CalisiyorMusunView.swift in Sources */,
+				84F774A02566E41B00382C14 /* BilgilendirmeView.swift in Sources */,
 				84F7747B2566D18D00382C14 /* SceneDelegate.swift in Sources */,
-				84F7747D2566D18D00382C14 /* ContentView.swift in Sources */,
+				84F7747D2566D18D00382C14 /* SoruView.swift in Sources */,
+				84F774962566DEDE00382C14 /* KontrolButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +392,7 @@
 		};
 		84F7748A2566D18D00382C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE7860158C16255467DC128 /* Pods-DisariCikmaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +414,7 @@
 		};
 		84F7748B2566D18D00382C14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CD297BC99C23C924046BD0 /* Pods-DisariCikmaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
